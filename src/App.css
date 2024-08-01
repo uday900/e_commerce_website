@@ -70,7 +70,9 @@
     z-index: 200;
     position: absolute;
     top: 25%;
-    background: white;
+    width: 30%;
+    /* color: blac; */
+    background: whitesmoke;
     backdrop-filter: blur(10px);
     
   }
