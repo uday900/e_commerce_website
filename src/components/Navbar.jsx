@@ -53,8 +53,9 @@ const Navbar = () => {
             
           )}
               <Link to="/cartpage">
-            <button className="login btn btn-outline-success position-relative" type="button">
-              <i className="cart-logo fa-solid fa-cart-shopping"></i> Cart
+            <button className="login btn position-relative" type="button">
+              <i className="cart-logo fa-solid fa-cart-shopping"
+                style={{fontSize:"20px"}}></i>
               <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                 {cart.length}
                 <span className="visually-hidden">items in cart</span>
