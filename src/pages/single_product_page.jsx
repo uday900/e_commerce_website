@@ -47,6 +47,8 @@ function SingleProductPage() {
 
         </span>
     </div>
+
+    
     </>
 }
 

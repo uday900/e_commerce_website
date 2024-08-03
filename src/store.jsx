@@ -30,6 +30,7 @@ function cart_items_reducer_function(state = cartItems, action){
 }
 
 const singleProduct = {}
+
 function single_product_reducer_function(state = singleProduct, action){
     if ( action.type == "set_single_product"){
         return state = action.payload
